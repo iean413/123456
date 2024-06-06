@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:#141414;
+}
+
+#wrapper{
+	width:100%;
+	position: relative;
+	margin: auto;
+}
+#all{
+	width:70%;
+	position: relative;
+	margin: auto;
+}
+
+#header{
+	width:100%;
+	height:205px;
+	position: relative;
+	background:url(images/header_bg_center.png) 50% 50% no-repeat;
+}
+
+#miannav{
+	width:100%;
+	height:80px;
+	position: relative;
+	background:#141414;
+    text-align: center;
+}
+
+#miannav ul {
+	padding: 0;
+	margin: 0;
+    display: inline-block;
+}
+
+#miannav ul li {
+	float: left;
+	list-style-type: none;
+}
+
+#miannav ul li a {
+	display: block;
+	width: 165px;;
+	text-align: center;
+	padding-top:30px; 
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+}
+
+#miannav ul li a:hover{
+	color: #565656;
+}
+
+#mianpic{
+	width:100%;
+	height:620px;
+	position: relative;
+	background:#141414;
+}
+
+#content1{
+	width:100%;
+
+	position: relative;
+	background:#141414;
+	text-align: center;
+	margin-top: 15px;
+}
+
+#content1 .sec_pic{
+	width:30%;
+	height:231px;
+	position: relative;
+    background:#141414;
+	margin-right: 5%;
+	float: left;
+	animation: rubberBand;
+    animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+#content1 .sec_pic2{
+	width:30%;
+	
+	position: relative;
+    background:#141414;
+	float: left;
+	color: #FFFFFF;
+	text-align:justify;
+	font-size: 20px;
+	font-family: arial;
+
+}
+
+#content1 .sec_pic3{
+	clear: both;
+	width:100%;
+	
+	position: relative;
+    background:#141414;
+		color: #FFFFFF;
+	text-align:justify;
+	font-size: 20px;
+	font-family: arial;
+	padding-top:15px; 
+}
+
+#content2{
+	width:100%;
+	position: relative;
+	background:#141414;
+	margin-top: 15px;
+}
+
+#content2 .sec_pic4{
+	width:48%;
+	height:727px;
+	position: relative;
+	background: #141414;
+	margin-right: 2%;
+	float: left;
+		color: #FFFFFF;
+	text-align:justify;
+	font-size: 20px;
+	font-family: arial;
+	margin-top: 15px;
+}
+#content2 .sec_pic5{
+	width:48%;
+	height:727px;
+	position: relative;
+	background: #141414;
+	margin-left: 2%;
+	float: left;
+	margin-top: 15px;
+}
+
+#footer{
+	clear: both;
+    width:100%;
+	height:287px;
+	position: relative;
+	background: url(images/footer_bg2.png) 50% 50% no-repeat;
+}
+
+#footer .icon1 {
+	width:43px;
+	height:44px;
+	background: url(images/footer_star.png);
+	position: absolute;
+	top:35px;
+	left:62%;
+	float: left;
+	cursor: pointer;
+}
+
+#footer .icon1:hover{
+	background: url(images/footer_star_h.png);
+}
+
+#footer .icon2 {
+	width:43px;
+	height:44px;
+	background: url(images/footer_mail.png);
+	position: absolute;
+	top:35px;
+	left:67%;
+	float: left;
+	cursor: pointer;
+}
+
+#footer .icon2:hover{
+	background: url(images/footer_mail_h.png);
+}
+
+#footer .icon3 {
+	width:43px;
+	height:44px;
+	background: url(images/footer_url.png);
+	position: absolute;
+	top:35px;
+	left:72%;
+	cursor: pointer;
+
+}
+
+#footer .icon3:hover{
+	background: url(images/footer_url_h.png);
+}
+
+#footer .icon4 {
+	width:677px;
+	height:61px;
+	background:url(images/footer_subcribe.png);
+	position: absolute;
+	top:130px;
+	left: 50%;
+	margin-left: -333px;
+    cursor: pointer;
+}
+
+#footer .icon4:hover{
+	background:url(images/footer_subcribe_h.png);
+}
